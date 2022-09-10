@@ -9,7 +9,7 @@
 
  <p>
 <div>
-<img height="130em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=c13neto&layout=compact&langs_count=7&theme=architect"/>
+<img height="130em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=c13neto&layout=compact&langs_count=7&theme=cayman"/>
 </div>
 </p>
 
