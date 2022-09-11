@@ -19,4 +19,20 @@
 <img align="center" alt="Neto-Java" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg">
 <img align="center" alt="Neto-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 <img align="center" alt="Neto-Lua" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/lua/lua-original.svg">
-</div>
+</div><br>
+ 
+ - 🏫 Estou na UFRB
+ - 🤖 Fazendo engenharia da computação
+ - 🐧 sou Linux User
+ - 💽 Do movimento open-source
+ > Prazer em te conhecer
+ 
+ ```python
+ import coffee-lib
+ 
+ if(coffee == true):
+  work(c13neto)
+ else:
+  c13neto += coffee
+ ```
+  
