@@ -8,7 +8,7 @@
 <a href = "https://github.com/c13neto">
 <img " src="https://github-readme-stats.vercel.app/api?username=c13neto&show_icons=true&theme=architect&include_all_commits=true&count_private=true"/>
 <img src = "https://github-readme-streak-stats.herokuapp.com/?user=c13neto&theme=cayman"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=c13neto&layout=compact&langs_count=7&theme=cayman" style="width:1000px;heigth:100px;"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=c13neto&layout=compact&langs_count=7&theme=cayman" width= "500px" align="center"/>
 </div>
 
 <div style="display: inline_block"><br>
