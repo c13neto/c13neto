@@ -1,3 +1,7 @@
+<p>
+<img src = "https://c.tenor.com/Gyr7Or2o5ycAAAAC/technology-path.gif"/>
+</p>
+
 ## Oi, Meu nome é Neto!👋
 
 <p>
