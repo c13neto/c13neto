@@ -1,6 +1,6 @@
 <p>
 <div>
-<img width = "180em" src = "https://c.tenor.com/Gyr7Or2o5ycAAAAC/technology-path.gif"/>
+<img heigth = "100" width = "200" src = "https://c.tenor.com/Gyr7Or2o5ycAAAAC/technology-path.gif"/>
 <div/>
 </p>
 
