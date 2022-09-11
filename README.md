@@ -1,25 +1,15 @@
-<p>
 <div>
-<img heigth = "300" width = "1000" src = "https://c.tenor.com/Gyr7Or2o5ycAAAAC/technology-path.gif"/>
+<img src = "https://static01.nyt.com/images/2020/01/01/business/01Techfix-print/01Techfix-print-superJumbo.gif" style="width:1000px;height:300px;"/>
 <div/>
-</p>
 
 ## Oi, Meu nome é Neto!👋
 
-<p>
-<div>
+<div style = "display: inline_block">
 <a href = "https://github.com/c13neto">
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=c13neto&show_icons=true&theme=architect&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=c13neto&layout=compact&langs_count=7&theme=cayman"/>
 </div>
-</p>
 
- <p>
-<div>
-<img height="130em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=c13neto&layout=compact&langs_count=7&theme=cayman"/>
-</div>
-</p>
-
-<p>
 <div style="display: inline_block"><br>
 <img align="center" alt="Neto-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
 <img align="center" alt="Neto-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
@@ -33,4 +23,3 @@
 <img align="center" alt="Neto-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 <img align="center" alt="Neto-Lua" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/lua/lua-original.svg">
 </div>
-</p>
