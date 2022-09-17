@@ -35,7 +35,4 @@
  else:
   c13neto += coffee
  ```
- <div><br>
-  <a href="https://static01.nyt.com/images/2020/01/01/business/01Techfix-print/01Techfix-print-superJumbo.gif"/>
-  <img src="https://static01.nyt.com/images/2020/01/01/business/01Techfix-print/01Techfix-print-superJumbo.gif" align="left" width = "500px" >
- </div>
+ 
