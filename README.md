@@ -1,4 +1,4 @@
-## Oi, Meu nome é Neto!👋
+# Oi, Meu nome é Neto!👋
 
 <div style="display: inline_block"><br>
 <a href = "https://github.com/c13neto">
@@ -37,5 +37,5 @@
  ```
  <div><br>
   <a href="https://static01.nyt.com/images/2020/01/01/business/01Techfix-print/01Techfix-print-superJumbo.gif"/>
-  <img src="https://static01.nyt.com/images/2020/01/01/business/01Techfix-print/01Techfix-print-superJumbo.gif">
+  <img src="https://static01.nyt.com/images/2020/01/01/business/01Techfix-print/01Techfix-print-superJumbo.gif" align="left" width = "500px" >
  </div>
