@@ -1,7 +1,7 @@
 # About me:
 System Administer with technician in DevOps.<br> Learning in Federal University from Brasil (UFBA)
 # Personal Projects:
-Still developing...
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=c13neto&repo=IAGRICULTOR)](https://github.com/c13neto/IAGRICULTOR)
 # My set of work tools:
 ![HTML5](
     https://img.shields.io/badge/HTML5--black?style=flat-square&logo=HTML5&logoColor=white&labelColor=orange
