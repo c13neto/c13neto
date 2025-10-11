@@ -1,10 +1,7 @@
 # About me:
 System Administer with technician in DevOps.<br> Learning in Federal University from Brasil (UFBA)
----
 # Personal Projects:
 Still developing...
-
----
 # My set of work tools:
 ![HTML5](
     https://img.shields.io/badge/HTML5--black?style=flat-square&logo=HTML5&logoColor=white&labelColor=orange
@@ -35,8 +32,6 @@ Still developing...
     )
     ![C](https://img.shields.io/badge/C%20Language--black?style=flat-square&logo=C&logoColor=white&labelColor=%2300599C
     )
-
----
 # Contact me:
 [![Email](
     https://img.shields.io/badge/E--mail%3A%20-adalbertoneto13%40yahoo.com-%23410093?style=flat-square&logo=maildotru&logoColor=white&labelColor=grey
@@ -46,8 +41,7 @@ Still developing...
 )](www.linkedin.com/in/adalberto-espírito-santo-neto-542158220)
 [![Linktree](https://img.shields.io/badge/Linktree-Other%20ways-grey?style=flat-square&logo=linktree&logoColor=black&labelColor=%2342E661
 )](https://www.linktr.ee/neto13c)
----
-# Buy me a coffe(Support me):
+# Buy me a coffee(Support me):
 ![Pix](
     https://img.shields.io/badge/Pix%3A%20-adalbertoneto13%40yahoo.com-grey?style=flat-square&logo=pix&logoColor=white&labelColor=%2300FF00
     )
@@ -56,10 +50,6 @@ Still developing...
 )](https://www.paypal.com/paypalme/adalbertoneto13)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi%20-Support%20Me-%2372A5F2?style=flat-square&logo=kofi&logoColor=white&labelColor=%23FF6433
 )](https://www.ko-fi.com/adalbertoneto1309)
-
----
 # Statistics:
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=c13neto&show_icons=true&theme=radical)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=c13neto&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=c13neto&stats_format=bytes&theme=radical&local)
----
-#
