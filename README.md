@@ -38,7 +38,7 @@ Still developing...
 )](mailto:adalbertoneto13@yahoo.com)
 [![Linkedin](
     https://img.shields.io/badge/Linkedin%3A%20-Adalberto%20Espirito%20Santo%20Neto-grey?style=flat-square&logo=inspire&logoColor=white&labelColor=%230e76a8
-)](www.linkedin.com/in/adalberto-espírito-santo-neto-542158220)
+)](https://www.linkedin.com/in/adalberto-esp%C3%ADrito-santo-neto-542158220)
 [![Linktree](https://img.shields.io/badge/Linktree-Other%20ways-grey?style=flat-square&logo=linktree&logoColor=black&labelColor=%2342E661
 )](https://www.linktr.ee/neto13c)
 # Buy me a coffee(Support me):
