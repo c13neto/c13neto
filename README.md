@@ -38,20 +38,28 @@ Still developing...
 
 ---
 # Contact me:
-![Email](
+[![Email](
     https://img.shields.io/badge/E--mail%3A%20-adalbertoneto13%40yahoo.com-%23410093?style=flat-square&logo=maildotru&logoColor=white&labelColor=grey
-)
-![Linkedin](
+)](mailto:adalbertoneto13@yahoo.com)
+[![Linkedin](
     https://img.shields.io/badge/Linkedin%3A%20-Adalberto%20Espirito%20Santo%20Neto-grey?style=flat-square&logo=inspire&logoColor=white&labelColor=%230e76a8
-)
+)](www.linkedin.com/in/adalberto-espírito-santo-neto-542158220)
+[![Linktree](https://img.shields.io/badge/Linktree-Other%20ways-grey?style=flat-square&logo=linktree&logoColor=black&labelColor=%2342E661
+)](https://www.linktr.ee/neto13c)
 ---
-# Buy me a coffe(Suport me):
+# Buy me a coffe(Support me):
 ![Pix](
     https://img.shields.io/badge/Pix%3A%20-adalbertoneto13%40yahoo.com-grey?style=flat-square&logo=pix&logoColor=white&labelColor=%2300FF00
     )
 [![Paypal](
-    https://img.shields.io/badge/PayPal%20-%20-black?style=flat-square&logo=paypal&logoColor=white&labelColor=%23003087&link=https%3A%2F%2Fwww.paypal.com%2Fpaypalme%2Fadalbertoneto13
+    https://img.shields.io/badge/PayPal%20-Payment%20Link-grey?style=flat-square&logo=paypal&logoColor=white&labelColor=%23003087&link=https%3A%2F%2Fwww.paypal.com%2Fpaypalme%2Fadalbertoneto13
 )](https://www.paypal.com/paypalme/adalbertoneto13)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi%20-Support%20Me-%2372A5F2?style=flat-square&logo=kofi&logoColor=white&labelColor=%23FF6433
+)](https://www.ko-fi.com/adalbertoneto1309)
 
+---
+# Statistics:
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=c13neto&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=c13neto&stats_format=bytes&theme=radical&local)
 ---
 #
