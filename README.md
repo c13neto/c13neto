@@ -1,5 +1,5 @@
 # About me:
-System Administer with technician in DevOps.<br> Learning in Federal University from Brasil (UFBA)
+System Administer with technician in DevOps.<br> Learning in Federal University of Bahia (UFBA)
 # Personal Projects:
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=c13neto&repo=IAGRICULTOR&theme=radical)](https://github.com/c13neto/IAGRICULTOR)
 # My set of work tools:
