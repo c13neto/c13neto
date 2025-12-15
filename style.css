@@ -1,0 +1,207 @@
+:root {
+    --bg-color: #050505;
+    --glass-bg: rgba(10, 20, 10, 0.7); /* Mais transparência para efeito glass */
+    --border-color: #003b00;
+    --main-green: #008f11;
+    --bright-green: #00ff41;
+    --text-dim: #88aa88;
+    --font-mono: 'Fira Code', monospace;
+    --gap-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Scrollbar Personalizada (Webkit) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--main-green);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--bright-green);
+    font-family: var(--font-mono);
+    line-height: 1.6;
+    min-height: 100vh; /* Garante que ocupa a tela toda */
+    display: flex;
+    justify-content: center;
+    padding: clamp(1rem, 3vw, 2rem);
+    /* Imagem de fundo opcional para efeito matrix/grid */
+    background-image: radial-gradient(#0a1f0a 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+/* Container Principal Layout */
+.layout-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px; /* Limita largura em telas gigantes */
+    gap: var(--gap-size);
+    align-items: flex-start; /* Impede que sidebar estique desnecessariamente */
+}
+
+/* Estilos de Painel (Reutilizável) */
+.glass-panel {
+    background: var(--glass-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px; /* Bordas levemente mais arredondadas */
+    backdrop-filter: blur(10px); /* Blur aumentado para legibilidade */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    margin-bottom: var(--gap-size);
+}
+
+/* === Sidebar === */
+.sidebar {
+    width: 300px;
+    flex-shrink: 0; /* Impede a sidebar de encolher demais */
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0 auto 1rem;
+    border: 2px solid var(--main-green);
+    padding: 4px;
+    border-radius: 50%;
+    transition: box-shadow 0.3s ease;
+}
+
+.avatar img:hover {
+    box-shadow: 0 0 15px var(--main-green);
+}
+
+.sidebar h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--bright-green);
+    border-bottom: 1px dashed var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.status-lines p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+.skills ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin-bottom: 0.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--text-dim);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* Efeito Hover na Navegação */
+nav ul li a:hover {
+    color: var(--bg-color);
+    background-color: var(--bright-green);
+    transform: translateX(5px);
+}
+
+/* === Conteúdo Principal === */
+.main-content {
+    flex-grow: 1; /* Ocupa o resto do espaço */
+    display: flex;
+    flex-direction: column;
+}
+
+.title-bar h1 {
+    text-align: center;
+    text-shadow: 0 0 5px var(--main-green);
+}
+
+main article h1 {
+    margin-bottom: 1rem;
+    color: var(--bright-green);
+}
+
+main p {
+    margin-bottom: 1rem;
+    color: #c0dec0; /* Leitura mais confortável que verde neon puro */
+}
+
+footer {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    text-align: center;
+}
+
+footer a {
+    color: var(--bright-green);
+}
+
+/* === Animações === */
+.terra {
+    animation: girar 6s linear infinite;
+}
+
+.pin {
+    animation: pulo 2s ease-in-out infinite;
+}
+
+@keyframes girar {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+}
+
+@keyframes pulo {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-3px); }
+}
+
+/* === Responsividade === */
+@media (max-width: 768px) {
+    .layout-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    /* Opcional: Arrumar a nav em grid no mobile */
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
