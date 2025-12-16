@@ -108,6 +108,7 @@ body {
 .skills ul {
     list-style: none;
     padding-left: 1rem;
+    text-align: center;
 }
 
 /* Navegação */
@@ -155,8 +156,15 @@ main article h1 {
 }
 
 main p {
+    text-align: justify;
+    hyphens: auto;             
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    
+    overflow-wrap: break-word; 
+    
     margin-bottom: 1rem;
-    color: #c0dec0; /* Leitura mais confortável que verde neon puro */
+    color: #c0dec0;
 }
 
 footer {
@@ -201,7 +209,77 @@ footer a {
     /* Opcional: Arrumar a nav em grid no mobile */
     nav ul {
         display: grid;
-        grid-template-columns: 1fr 1fr;
         gap: 10px;
+    }
+}
+
+address {
+    font-style: normal; /* Remove o itálico padrão da tag address */
+    width: 100%;
+}
+
+.contact-grid {
+    display: grid;
+    /* Cria colunas automáticas com largura mínima de 150px */
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); 
+    gap: 15px;
+    margin-top: 1rem;
+}
+
+/* Estilo padrão dos links e caixas dentro do address */
+.contact-grid a, 
+.contact-grid .pix-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    background: rgba(0, 20, 0, 0.4);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    color: var(--text-dim);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    overflow: hidden; /* Evita que email longo quebre o layout */
+}
+
+/* Efeito Hover (passar o mouse) */
+.contact-grid a:hover {
+    background: var(--main-green);
+    color: #000;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 143, 17, 0.3);
+    border-color: var(--bright-green);
+}
+
+/* Ícones */
+.contact-grid i {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0; /* Impede o ícone de amassar */
+}
+
+/* Destaque para Email e Pix ocuparem 2 colunas se houver espaço */
+.contact-highlight, 
+.pix-box {
+    grid-column: span 1; 
+}
+
+/* Pix específico (já que não é link clicável da mesma forma) */
+.contact-grid .pix-box {
+    cursor: text; /* Mostra cursor de seleção */
+    border: 1px dashed var(--main-green);
+    color: var(--bright-green);
+}
+
+.pix-box:hover {
+    background: rgba(0, 143, 17, 0.1);
+}
+
+/* Responsividade: Em telas maiores, Email e Pix ocupam mais espaço */
+@media (min-width: 600px) {
+    .contact-highlight, 
+    .pix-box {
+        grid-column: span 2; /* Ocupa 2 colunas para caber o texto longo */
     }
 }
