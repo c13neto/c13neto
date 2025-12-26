@@ -2,7 +2,7 @@
 System Administrator with technician in DevOps.<br> Learning in Federal University of Bahia (UFBA)
 
 # Personal Projects:
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=c13neto&repo=IAGRICULTOR&theme=radical)](https://github.com/c13neto/IAGRICULTOR)
+[![Readme Card](https://github-readme-stats-alpha-seven-81.vercel.app//api/pin/?username=c13neto&repo=IAGRICULTOR&theme=radical)](https://github.com/c13neto/IAGRICULTOR)
 
 # My set of work tools:
 ![HTML5](https://img.shields.io/badge/HTML5--black?style=flat-square&logo=HTML5&logoColor=white&labelColor=orange)
@@ -27,5 +27,5 @@ System Administrator with technician in DevOps.<br> Learning in Federal Universi
 [![Ko-fi](https://img.shields.io/badge/Ko--fi%20-Support%20Me-%2372A5F2?style=flat-square&logo=kofi&logoColor=white&labelColor=%23FF6433)](https://www.ko-fi.com/adalbertoneto1309)
 
 # Statistics:
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=c13neto&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=c13neto&layout=compact&theme=radical)
+![GitHub stats](https://github-readme-stats-alpha-seven-81.vercel.app//api?username=c13neto&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats-alpha-seven-81.vercel.app//api/top-langs/?username=c13neto&layout=compact&theme=radical)
