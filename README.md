@@ -1,11 +1,11 @@
 # About me:
-System Administrator with technician in DevOps.<br> Learning in Federal University of Bahia (UFBA)
+System Administrator with technician in DevOps.<br> Learning CS in Federal University of Bahia (UFBA)
 
 # Personal Projects:
 [![Readme Card](https://github-readme-stats-alpha-seven-81.vercel.app//api/pin/?username=c13neto&repo=IAGRICULTOR&theme=radical)](https://github.com/c13neto/IAGRICULTOR)
 [![Readme Card](https://github-readme-stats-alpha-seven-81.vercel.app//api/pin/?username=c13neto&repo=c13neto&theme=radical)](https://github.com/c13neto/c13neto)
 
-# My set of work tools:
+# Stacks:
 ![HTML5](https://img.shields.io/badge/HTML5--black?style=flat-square&logo=HTML5&logoColor=white&labelColor=orange)
 ![CSS3](https://img.shields.io/badge/CSS3--black?style=flat-square&logo=css3&logoColor=white&labelColor=%23264de4)
 ![JavaScript](https://img.shields.io/badge/JavaScript--black?style=flat-square&logo=javascript&logoColor=black&labelColor=%23f0db4f)
@@ -17,7 +17,7 @@ System Administrator with technician in DevOps.<br> Learning in Federal Universi
 ![Linux](https://img.shields.io/badge/Linux--black?style=flat-square&logo=linux&logoColor=white&labelColor=%25232b3137)
 ![C](https://img.shields.io/badge/C%20Language--black?style=flat-square&logo=c&logoColor=white&labelColor=%2300599C)
 
-# Contact me:
+# Contact:
 [![Email](https://img.shields.io/badge/E--mail%3A%20-adalbertoneto13%40yahoo.com-%23410093?style=flat-square&logo=maildotru&logoColor=white&labelColor=grey)](mailto:adalbertoneto13@yahoo.com)
 [![Linkedin](https://img.shields.io/badge/Linkedin%3A%20-Adalberto%20Espirito%20Santo%20Neto-grey?style=flat-square&logo=linkedin&logoColor=white&labelColor=%230e76a8)](https://www.linkedin.com/in/adalberto-esp%C3%ADrito-santo-neto-542158220)
 [![Linktree](https://img.shields.io/badge/Linktree-Other%20ways-grey?style=flat-square&logo=linktree&logoColor=black&labelColor=%2342E661)](https://www.linktr.ee/neto13c)
