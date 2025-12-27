@@ -8,10 +8,6 @@ System Administrator with technician in DevOps.<br> Learning CS in Federal Unive
 # Stacks:
 ![HTML5](https://img.shields.io/badge/HTML5--black?style=flat-square&logo=HTML5&logoColor=white&labelColor=orange)
 ![CSS3](https://img.shields.io/badge/CSS3--black?style=flat-square&logo=css3&logoColor=white&labelColor=%23264de4)
-![JavaScript](https://img.shields.io/badge/JavaScript--black?style=flat-square&logo=javascript&logoColor=black&labelColor=%23f0db4f)
-![Typescript](https://img.shields.io/badge/TypeScript--black?style=flat-square&logo=typescript&logoColor=white&labelColor=%23007acc)
-![Tailwind](https://img.shields.io/badge/Tailwind--black?style=flat-square&logo=tailwindcss&logoColor=white&labelColor=%2306b6d4)
-![NPM](https://img.shields.io/badge/NPM--black?style=flat-square&logo=npm&logoColor=white&labelColor=%23CC3534)
 ![Git](https://img.shields.io/badge/Git--black?style=flat-square&logo=git&logoColor=white&labelColor=%23f1502f)
 ![Github](https://img.shields.io/badge/Github--black?style=flat-square&logo=github&logoColor=white&labelColor=%232b3137)
 ![Linux](https://img.shields.io/badge/Linux--black?style=flat-square&logo=linux&logoColor=white&labelColor=%25232b3137)
