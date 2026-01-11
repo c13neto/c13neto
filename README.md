@@ -6,6 +6,7 @@ System Administrator with technician in DevOps.<br> Learning CS in Federal Unive
 [![Readme Card](https://github-readme-stats-alpha-seven-81.vercel.app//api/pin/?username=c13neto&repo=c13neto&theme=radical)](https://github.com/c13neto/c13neto)
 
 # Stacks:
+![Top Langs](https://github-readme-stats-alpha-seven-81.vercel.app//api/top-langs/?username=c13neto&layout=compact&theme=radical)
 ![HTML5](https://img.shields.io/badge/HTML5--black?style=flat-square&logo=HTML5&logoColor=white&labelColor=orange)
 ![CSS3](https://img.shields.io/badge/CSS3--black?style=flat-square&logo=css3&logoColor=white&labelColor=%23264de4)
 ![Git](https://img.shields.io/badge/Git--black?style=flat-square&logo=git&logoColor=white&labelColor=%23f1502f)
@@ -25,4 +26,3 @@ System Administrator with technician in DevOps.<br> Learning CS in Federal Unive
 
 # Statistics:
 ![GitHub stats](https://github-readme-stats-alpha-seven-81.vercel.app//api?username=c13neto&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats-alpha-seven-81.vercel.app//api/top-langs/?username=c13neto&layout=compact&theme=radical)
