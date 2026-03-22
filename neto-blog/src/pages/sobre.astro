@@ -1,0 +1,40 @@
+---
+import Layout from "../layouts/layout.astro";
+---
+<Layout>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full items-start mt-8">
+    
+    <div class="md:col-span-2 space-y-4">
+      <h2 class="text-4xl font-bold text-destaque">>_ Sobre Mim: </h2>
+      <p class="text-texto">
+        O espaço aqui está reservado para a sua bio, suas tecnologias e sua história como desenvolvedor.
+      </p>
+    </div>
+
+    <aside class="flex flex-col border-2 border-destaque bg-preto-m p-4 rounded-sm relative group">
+      
+      <div class="relative overflow-hidden border border-items mb-4 bg-items/20">
+        <img 
+          src="https://avatars.githubusercontent.com/u/63604008?v=4" 
+          alt="Foto de perfil de Adalberto Neto" 
+          class="w-full h-auto object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+        >
+        <div class="absolute top-2 right-2 w-2 h-2 border-t border-r border-destaque"></div>
+        <div class="absolute bottom-2 left-2 w-2 h-2 border-b border-l border-destaque"></div>
+      </div>
+      
+      <h1 class="font-mono text-destaque text-xl font-bold uppercase tracking-wider">
+        Adalberto Neto
+      </h1>
+      <span class=" flex justify-center text-xs text-texto font-sans tracking-widest mb-4 block">
+        Nivel: Estágiário | Localização: Salvador, BA | Ciência da computação - UFBA
+      </span>
+      
+      <a href="/curriculo.pdf" target="_blank" rel="noopener noreferrer" class=" flex justify-center w-full bg-destaque/10 border border-destaque text-destaque py-2 text-xs hover:bg-destaque hover:text-preto-m transition-colors">
+        [ Acesso ao meu CV ]
+      </a>
+
+    </aside>
+
+  </div>
+</Layout>

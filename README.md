@@ -31,6 +31,7 @@ Construo desde bancos de dados relacionais até interfaces de gestão completas.
 ![CSS3](https://img.shields.io/badge/CSS3-101010?style=flat-square&logo=css&logoColor=1572B6)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-101010?style=flat-square&logo=tailwindcss&logoColor=38B2AC)
 ![Vite](https://img.shields.io/badge/Vite-101010?style=flat-square&logo=vite&logoColor=646CFF)
+![Astro](https://img.shields.io/badge/Astro-101010?style=flat-square&logo=astro&logoColor=646CFF)
 
 **Banco de Dados**
 
@@ -39,8 +40,6 @@ Construo desde bancos de dados relacionais até interfaces de gestão completas.
 ---
 
 ## 📂 Projetos em Destaque
-
-> *(Em breve: CRM QualiSenior — MVP de Gestão de Pacientes)*
 
 [![Readme Card](https://github-readme-stats-alpha-seven-81.vercel.app//api/pin/?username=c13neto&repo=IAGRICULTOR&theme=radical)](https://github.com/c13neto/IAGRICULTOR)
 [![Readme Card](https://github-readme-stats-alpha-seven-81.vercel.app//api/pin/?username=c13neto&repo=c13neto&theme=radical)](https://github.com/c13neto/c13neto)
@@ -56,7 +55,7 @@ Construo desde bancos de dados relacionais até interfaces de gestão completas.
 
 ## 📫 Contato
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adalberto%20Neto-101010?style=flat-square&logo=linkedin&logoColor=white&labelColor=0077B5)](https://www.linkedin.com/in/adalberto-esp%C3%ADrito-santo-neto-542158220)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adalberto%20Neto-101010?style=flat-square&logo=linkedin&logoColor=white&labelColor=0077B5)](www.linkedin.com/in/adalberto-neto-c13)
 [![Email](https://img.shields.io/badge/E--mail-adalbertoneto13%40yahoo.com-101010?style=flat-square&logo=maildotru&logoColor=white&labelColor=D14836)](mailto:adalbertoneto13@yahoo.com)
 [![Linktree](https://img.shields.io/badge/Linktree-neto13c-101010?style=flat-square&logo=linktree&logoColor=white&labelColor=42E661)](https://www.linktr.ee/neto13c)
 
@@ -66,6 +65,6 @@ Construo desde bancos de dados relacionais até interfaces de gestão completas.
 
 Se o meu trabalho te ajudou, considere me apoiar:
 
-[![Pix](https://img.shields.io/badge/Pix-adalbertoneto13%40yahoo.com-101010?style=flat-square&logo=pix&logoColor=white&labelColor=00B289)](mailto:adalbertoneto13@yahoo.com)
+[![Pix](https://img.shields.io/badge/Pix-adalbertoneto13%40yahoo.com-101010?style=flat-square&logo=pix&logoColor=white&labelColor=00B289)](https://c13neto.github.io/c13neto/contatos)
 [![PayPal](https://img.shields.io/badge/PayPal-Payment%20Link-101010?style=flat-square&logo=paypal&logoColor=white&labelColor=003087)](https://www.paypal.com/paypalme/adalbertoneto13)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Me-101010?style=flat-square&logo=kofi&logoColor=white&labelColor=FF6433)](https://www.ko-fi.com/adalbertoneto1309)
