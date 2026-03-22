@@ -2,10 +2,17 @@
 import Layout from "./layout.astro";
 const { frontmatter: formato } = Astro.props;
 ---
+
 <Layout>
-  <h1>{formato.title}</h1>
-  <p><em>{formato.description}</em></p>
-  <p>Publicado em {formato.pubDate.toString().slice(0,10)} - Escrito por: {formato.author}</p>
-  <slot />
-  <p>Tags: {formato.tags.join(", ")}</p>
+    <h1 class="flex justify-center mt-3 md:text-4xl">{formato.title}</h1>
+    <p class="text-[10px] my-3 md:text-[14px] lg:text-[16px]"><em>{formato.description}</em></p>
+    <p class="text-[10px] m-5 md:text-[14px] lg:text-[16px]">
+        Publicado em {formato.pubDate.toString().slice(0, 10)} - Escrito por: {
+            formato.author
+        }
+    </p>
+    <div lang="pt-BR" class="texto-tatico">
+      <slot />
+    </div>
+    <p>Tags: {formato.tags.join(", ")}</p>
 </Layout>

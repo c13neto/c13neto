@@ -1,62 +1,142 @@
 @import "tailwindcss";
+@plugin '@tailwindcss/typography';
 
 /* 1. CAMADA BASE (O seu Reset Global Customizado) */
 @layer base {
-    /* Garante que o cálculo de tamanho inclua bordas e paddings */
-    *, ::before, ::after {
-        box-sizing: border-box;
-    }
 
-    html {
-        /* Faz a página deslizar suavemente quando clicar em links de âncora (#sobre) */
-        scroll-behavior: smooth; 
-    }
+  /* Garante que o cálculo de tamanho inclua bordas e paddings */
+  *,
+  ::before,
+  ::after {
+    box-sizing: border-box;
+  }
 
-    /* BÔNUS DE INFRAESTRUTURA: Barra de rolagem customizada estilo Terminal */
-    ::-webkit-scrollbar {
-        width: 8px;
-    }
-    ::-webkit-scrollbar-track {
-        background-color: var(--color-preto-m);
-    }
-    ::-webkit-scrollbar-thumb {
-        background-color: var(--color-items);
-        border-radius: 4px;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-        background-color: var(--color-destaque);
-    }
-    /* ... seu código anterior do scrollbar ... */
+  html {
+    /* Faz a página deslizar suavemente quando clicar em links de âncora (#sobre) */
+    scroll-behavior: smooth;
+  }
 
-    /* 1. Cursor Global (Seta Verde Neon) */
-    body {
-        /* O '%23' é o código '#' traduzido para URL. %2300FF41 = #00FF41 */
-        cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="%2300FF41" stroke="%230D0208" stroke-width="1"><polygon points="3 3 10 21 13 14 20 11 3 3"/></svg>'), auto;
-    }
+  /* BÔNUS DE INFRAESTRUTURA: Barra de rolagem customizada estilo Terminal */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
 
-    /* 2. Cursor Tático para Links e Botões (Mira/Crosshair) */
-    a, button {
-        /* Os números '12 12' dizem ao navegador que o "ponto de clique" é exatamente no meio (X:12, Y:12) do desenho de 24x24px */
-        cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="%2300FF41" stroke="%230D0208" stroke-width="1"><polygon points="3 3 10 21 13 14 20 11 3 3"/></svg>'), pointer;
-        @apply text-texto hover:text-destaque transition-colors duration-300 border-b-2 border-transparent hover:border-destaque
-    }
-    p {
-        @apply flex justify-center-safe
-    }
+  ::-webkit-scrollbar-track {
+    background-color: var(--color-preto-m);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-items);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-destaque);
+  }
+
+  /* ... seu código anterior do scrollbar ... */
+
+  /* 1. Cursor Global (Seta Verde Neon) */
+  body {
+    /* O '%23' é o código '#' traduzido para URL. %2300FF41 = #00FF41 */
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="%2300FF41" stroke="%230D0208" stroke-width="1"><polygon points="3 3 10 21 13 14 20 11 3 3"/></svg>'), auto;
+  }
+
+  /* 2. Cursor Tático para Links e Botões (Mira/Crosshair) */
+  a,
+  button {
+    /* Os números '12 12' dizem ao navegador que o "ponto de clique" é exatamente no meio (X:12, Y:12) do desenho de 24x24px */
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="%2300FF41" stroke="%230D0208" stroke-width="1"><polygon points="3 3 10 21 13 14 20 11 3 3"/></svg>'), pointer;
+    @apply text-texto hover:text-destaque transition-colors duration-300 border-b-2 border-transparent hover:border-destaque
+  }
+
+  p {
+    @apply flex justify-center-safe
+  }
 }
 
 /* 2. CAMADA DE TEMA (As suas variáveis do sistema) */
 @theme {
-    --color-preto-m: #0D0208;
-    --color-texto: #008F11;
-    --color-destaque: #00FF41;
-    --color-items: #003B00;
+  --color-preto-m: #0D0208;
+  --color-texto: #008F11;
+  --color-destaque: #00FF41;
+  --color-items: #003B00;
 }
 
 /* 3. CAMADA DE COMPONENTES/UTILITÁRIOS (Suas classes customizadas) */
 @layer components {
-    .active {
-        color: var(--color-destaque);
-        border-bottom: 2px solid var(--color-destaque);
-    }
+  .active {
+    color: var(--color-destaque);
+    border-bottom: 2px solid var(--color-destaque);
+  }
+}
+
+/* src/styles/markdown.css */
+
+.texto-tatico {
+  /* ADICIONADO text-center GLOBALMENTE */
+  @apply max-w-none text-[10px] md:text-[14px] lg:text-[16px] text-slate-300 block text-center;
+}
+
+.texto-tatico p {
+  @apply text-center hyphens-auto m-0 mb-3 md:mb-5 lg:mb-6 leading-relaxed;
+  text-wrap: pretty;
+  overflow-wrap: break-word;
+}
+
+.texto-tatico h1,
+.texto-tatico h2,
+.texto-tatico h3 {
+  @apply text-center text-destaque font-bold m-0 mt-8 mb-2 md:mt-14 md:mb-2 lg:mt-4 lg:mb-3 text-[14px] md:text-[20px] lg:text-[24px] uppercase tracking-widest block mx-auto;
+  text-wrap: balance;
+}
+
+.texto-tatico ul,
+.texto-tatico ol {
+  @apply list-none p-0 m-0 mb-3 md:mb-6 lg:mb-8 flex flex-col items-center;
+}
+
+.texto-tatico li {
+  /* Usamos inline-flex para o item da lista ficar no meio, mantendo o ícone > e o texto juntos */
+  @apply relative leading-relaxed mb-4 md:mb-6 lg:mb-8 text-center hyphens-auto inline-flex items-start justify-center gap-2 max-w-[90%];
+}
+
+.texto-tatico li p {
+  display: inline;
+  margin: 0;
+  @apply text-left md:text-center;
+  /* Mantém legibilidade se o texto do item for muito longo */
+}
+
+.texto-tatico li::before {
+  content: ">";
+  /* Removemos o absolute! Agora ele flui como um caractere normal ao lado do texto */
+  @apply text-destaque font-bold text-[10px] md:text-[14px] lg:text-[16px] relative shrink-0 mt-0.5 md:mt-1;
+}
+
+.texto-tatico a {
+  @apply text-destaque underline hover:bg-destaque hover:text-preto-m transition-colors px-0.5;
+}
+
+.texto-tatico strong {
+  @apply text-destaque font-bold;
+}
+
+.texto-tatico code {
+  @apply text-destaque border border-destaque/30 bg-destaque/10 px-1 py-px md:px-2 md:py-1 rounded-sm font-mono text-[9px] md:text-[13px] lg:text-[15px];
+  display: inline-block;
+  white-space: nowrap !important;
+  hyphens: none !important;
+}
+
+.texto-tatico pre {
+  /* mx-auto centraliza a CAIXA preta na tela. O max-w-[95%] impede que ela encoste nas bordas do celular */
+  @apply p-4 md:p-6 lg:p-8 bg-slate-900 border border-destaque/30 rounded-md overflow-x-auto mb-6 md:mb-10 lg:mb-14 mx-auto max-w-[95%] md:max-w-[85%];
+}
+
+.texto-tatico pre code {
+  /* text-left AQUI DENTRO é vital para não destruir a formatação do seu código fonte! */
+  @apply bg-transparent border-none p-0 text-[10px] md:text-[14px] lg:text-[16px] text-left;
+  display: block;
+  white-space: pre !important;
 }

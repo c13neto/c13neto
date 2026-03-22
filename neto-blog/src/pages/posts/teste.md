@@ -7,7 +7,7 @@ author: 'Aluno de Astro'
 tags: ["astro", "blogueirando", "aprendendo em público"]
 ---
 
-Bem-vindo ao meu _novo blog_ sobre aprendendo Astro! Aqui, eu irei compartilhar minha jornada de aprendizado enquanto eu construo um novo website.
+Bem-vindo ao meu _novo_ _blog_ sobre aprendendo Astro! Aqui, eu irei compartilhar minha jornada de aprendizado enquanto eu construo um novo website.
 
 ## O que eu realizei
 
