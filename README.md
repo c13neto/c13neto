@@ -28,7 +28,7 @@ Construo desde bancos de dados relacionais até interfaces de gestão completas.
 **Frontend & Web**
 
 ![HTML5](https://img.shields.io/badge/HTML5-101010?style=flat-square&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-101010?style=flat-square&logo=css3&logoColor=1572B6)
+![CSS3](https://img.shields.io/badge/CSS3-101010?style=flat-square&logo=css&logoColor=1572B6)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-101010?style=flat-square&logo=tailwindcss&logoColor=38B2AC)
 ![Vite](https://img.shields.io/badge/Vite-101010?style=flat-square&logo=vite&logoColor=646CFF)
 
