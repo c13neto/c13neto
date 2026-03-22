@@ -1,59 +1,71 @@
 # Olá! Eu sou o Adalberto Neto 👋
 
-Desenvolvedor focado em **Backend, Full-stack e DevOps/Infraestrutura**. 
-Tenho uma forte veia para resolução de problemas complexos, automação de processos e self-hosting. Atualmente, estou focado em entregar soluções rápidas e de alto valor, construindo desde bancos de dados relacionais até interfaces de gestão.
+**System Administrator · DevOps Technician · CS Student**
 
-🎓 Estudando Ciência da Computação na Universidade Federal da Bahia (UFBA), com base prévia sólida em Engenharia e Ciências Exatas.
+Desenvolvedor focado em **Backend, Full-stack e DevOps/Infraestrutura**.
+Tenho forte interesse em resolução de problemas complexos, automação de processos e self-hosting.
+Construo desde bancos de dados relacionais até interfaces de gestão completas.
 
----
-
-### 🚀 Tecnologias e Ferramentas
-
-**Infraestrutura & Backend:**
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat-square&logo=c&logoColor=white)
-
-**Frontend & Web:**
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat-square&logo=vite&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white) 
-
-**Ferramentas:**
-![Git](https://img.shields.io/badge/Git-F05033?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+🎓 Estudando **Ciência da Computação** na Universidade Federal da Bahia **(UFBA)**, com base sólida em Engenharia e Ciências Exatas.
 
 ---
 
-### 📂 Projetos em Destaque
+## 🚀 Stacks
 
-*(Em breve: Adição do CRM QualiSenior - MVP de Gestão de Pacientes)*
+**Infraestrutura & DevOps**
+
+![Linux](https://img.shields.io/badge/Linux-101010?style=flat-square&logo=linux&logoColor=FCC624)
+![Docker](https://img.shields.io/badge/Docker-101010?style=flat-square&logo=docker&logoColor=0db7ed)
+![Git](https://img.shields.io/badge/Git-101010?style=flat-square&logo=git&logoColor=F05033)
+![GitHub](https://img.shields.io/badge/GitHub-101010?style=flat-square&logo=github&logoColor=white)
+
+**Linguagens**
+
+![Python](https://img.shields.io/badge/Python-101010?style=flat-square&logo=python&logoColor=ffdd54)
+![C](https://img.shields.io/badge/C-101010?style=flat-square&logo=c&logoColor=00599C)
+![JavaScript](https://img.shields.io/badge/JavaScript-101010?style=flat-square&logo=javascript&logoColor=F7DF1E)
+
+**Frontend & Web**
+
+![HTML5](https://img.shields.io/badge/HTML5-101010?style=flat-square&logo=html5&logoColor=E34F26)
+![CSS3](https://img.shields.io/badge/CSS3-101010?style=flat-square&logo=css3&logoColor=1572B6)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-101010?style=flat-square&logo=tailwindcss&logoColor=38B2AC)
+![Vite](https://img.shields.io/badge/Vite-101010?style=flat-square&logo=vite&logoColor=646CFF)
+
+**Banco de Dados**
+
+![Supabase](https://img.shields.io/badge/Supabase-101010?style=flat-square&logo=supabase&logoColor=3ECF8E)
+
+---
+
+## 📂 Projetos em Destaque
+
+> *(Em breve: CRM QualiSenior — MVP de Gestão de Pacientes)*
 
 [![Readme Card](https://github-readme-stats-alpha-seven-81.vercel.app//api/pin/?username=c13neto&repo=IAGRICULTOR&theme=radical)](https://github.com/c13neto/IAGRICULTOR)
 [![Readme Card](https://github-readme-stats-alpha-seven-81.vercel.app//api/pin/?username=c13neto&repo=c13neto&theme=radical)](https://github.com/c13neto/c13neto)
 
 ---
 
-### 📊 Estatísticas do GitHub
+## 📊 Estatísticas
 
 ![GitHub stats](https://github-readme-stats-alpha-seven-81.vercel.app//api?username=c13neto&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats-alpha-seven-81.vercel.app//api/top-langs/?username=c13neto&layout=compact&theme=radical)
 
 ---
 
-### 📫 Como me encontrar
+## 📫 Contato
 
-[![Linkedin](https://img.shields.io/badge/LinkedIn-Adalberto_Neto-%230077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adalberto-neto-c13)
-[![Email](https://img.shields.io/badge/Email-adalbertoneto13@yahoo.com-%23D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:adalbertoneto13@yahoo.com)
-[![Linktree](https://img.shields.io/badge/Linktree-neto13c-%231CB954?style=flat-square&logo=linktree&logoColor=white)](https://www.linktr.ee/neto13c)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adalberto%20Neto-101010?style=flat-square&logo=linkedin&logoColor=white&labelColor=0077B5)](https://www.linkedin.com/in/adalberto-esp%C3%ADrito-santo-neto-542158220)
+[![Email](https://img.shields.io/badge/E--mail-adalbertoneto13%40yahoo.com-101010?style=flat-square&logo=maildotru&logoColor=white&labelColor=D14836)](mailto:adalbertoneto13@yahoo.com)
+[![Linktree](https://img.shields.io/badge/Linktree-neto13c-101010?style=flat-square&logo=linktree&logoColor=white&labelColor=42E661)](https://www.linktr.ee/neto13c)
 
-<br>
+---
 
-**☕ Support my work:**
-[![Pix](https://img.shields.io/badge/Pix-00B289?style=flat-square&logo=pix&logoColor=white)](mailto:adalbertoneto13@yahoo.com)
-[![Paypal](https://img.shields.io/badge/PayPal-00457C?style=flat-square&logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/adalbertoneto13)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=flat-square&logo=ko-fi&logoColor=white)](https://www.ko-fi.com/adalbertoneto1309)
+## ☕ Support Me
+
+Se o meu trabalho te ajudou, considere me apoiar:
+
+[![Pix](https://img.shields.io/badge/Pix-adalbertoneto13%40yahoo.com-101010?style=flat-square&logo=pix&logoColor=white&labelColor=00B289)](mailto:adalbertoneto13@yahoo.com)
+[![PayPal](https://img.shields.io/badge/PayPal-Payment%20Link-101010?style=flat-square&logo=paypal&logoColor=white&labelColor=003087)](https://www.paypal.com/paypalme/adalbertoneto13)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Me-101010?style=flat-square&logo=kofi&logoColor=white&labelColor=FF6433)](https://www.ko-fi.com/adalbertoneto1309)
