@@ -1,4 +1,71 @@
 ---
 import Layout from "../layouts/layout.astro";
 ---
-<Layout></Layout>
+
+<Layout>
+    <section class="flex flex-col items-center gap-8 py-16 px-4">
+        <div class="flex flex-col items-center text-justify px-5 md:px-95 gap-6">
+            <h1 class="md:text-4xl font-bold text-destaque">
+                >_ Bem-Vindo ao Meu portifolio/Blog profissional
+            </h1>
+            <p>
+                Este é o espaço onde documento minha rotina técnica, meus
+                estudos em Ciência da Computação e os bastidores dos projetos
+                que desenvolvo. O objetivo principal aqui é compartilhar
+                conhecimento prático, saindo da teoria e mostrando como as
+                coisas funcionam na vida real.
+            </p>
+            <p>
+                Para os profissionais que já atuam no mercado, este é um
+                ambiente aberto para debatermos soluções, otimização de código e
+                boas práticas de engenharia.
+            </p>
+            <p>
+                Já para quem acompanha o setor de tecnologia e avalia perfis
+                técnicos, os artigos aqui funcionam como um registro aberto da
+                minha metodologia de trabalho: como estruturo o raciocínio,
+                resolvo problemas complexos e entrego software funcional.
+            </p>
+            <p>
+                Sinta-se à vontade para explorar o conteúdo, conferir os códigos
+                e iniciar uma conversa.
+            </p>
+        </div>
+    </section>
+    <section class="flex flex-col items-center gap-8 py-16 px-4">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold text-destaque">>_ GitHub Stats:</h1>
+            <p class="text-texto mt-2">Atividade e métricas do meu perfil</p>
+        </div>
+
+        <div
+            class="flex flex-col md:flex-row gap-6 items-center justify-center w-full flex-wrap"
+        >
+            <!-- Estatísticas gerais -->
+            <img
+                src="https://github-readme-stats-alpha-seven-81.vercel.app/api?username=c13neto&show_icons=true&theme=radical&bg_color=00000000&title_color=00ff41&text_color=cccccc&icon_color=00ff41&border_color=333"
+                alt="GitHub Stats"
+                class="rounded-lg border border-items hover:border-destaque transition-colors duration-300"
+            />
+
+            <!-- Linguagens mais usadas -->
+            <img
+                src="https://github-readme-stats-alpha-seven-81.vercel.app/api/top-langs/?username=c13neto&layout=compact&theme=radical&bg_color=00000000&title_color=00ff41&text_color=cccccc&border_color=333"
+                alt="Linguagens mais usadas"
+                class="rounded-lg border border-items hover:border-destaque transition-colors duration-300"
+            />
+        </div>
+
+        <!-- Frequência de commits (streak) -->
+        <img
+            src="https://github-readme-streak-stats.herokuapp.com?user=c13neto&theme=radical&background=00000000&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&sideLabels=cccccc&dates=cccccc&border=333333"
+            alt="Frequência de commits"
+            class="rounded-lg border border-items hover:border-destaque transition-colors duration-300"
+        />
+        <img
+            src="https://github-readme-activity-graph.vercel.app/graph?username=c13neto&bg_color=00000000&color=00ff41&line=00ff41&point=ffffff&area=true&area_color=00ff41&border_color=333333"
+            alt="Gráfico de atividade"
+            class="w-full max-w-3xl rounded-lg border border-items hover:border-destaque transition-colors duration-300"
+        />
+    </section>
+</Layout>

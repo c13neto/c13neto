@@ -1,40 +1,70 @@
 ---
 import Layout from "../layouts/layout.astro";
+import curriculo from "../assets/curriculo.pdf";
 ---
+
 <Layout>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full items-start mt-8">
-    
-    <div class="md:col-span-2 space-y-4">
-      <h2 class="text-4xl font-bold text-destaque">>_ Sobre Mim: </h2>
-      <p class="text-texto">
-        O espaço aqui está reservado para a sua bio, suas tecnologias e sua história como desenvolvedor.
-      </p>
-    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full items-start mt-8 ">
+        <div class="md:col-span-2 space-y-4 mx-5 text-justify">
+            <h2 class="text-2xl md:text-4xl font-bold">>_ Sobre Mim:</h2>
+            <p>
+                Olá, seja bem-vindo ao meu blog. Meu nome é Adalberto Espirito Santo Neto, sou estudante de Ciência da Computação e desenvolvedor Back-end, DevOps e Inteligência Artificial.
+            </p>
+            <p>
+                A minha relação com a tecnologia começou na base, focado em ferramentas básicas de software. Em 2019, concluí o curso de Comunicação em Tecnologia pelo Coletivo Jovem da Coca-Cola e, em 2021, formei-me como Montador e Reparador de Microcomputadores pelo SENAI. Esse contato inicial me fez aprofundar no mundo da tecnologia.
+            </p>
+            <p>
+                Minha trajetória acadêmica foi moldada por uma busca pelo área que conseguia me qualificar mais. Iniciei meus estudos em Engenharia da Computação na UFRB, passei pelo Bacharelado Interdisciplinar (BI) de Ciência e Tecnologia na UFBA, e hoje consolido minha formação no Bacharelado em Ciência da Computação. Nesse caminho, tive a oportunidade de retornar ao SENAI em 2023, dessa vez como Monitor de Programação, auxiliando turmas no aprendizado de lógica e algoritmos com a linguagem C, enquanto realiza meu curso técnico em Redes de Computadores. Também dedico parte do meu tempo a cursos de excelência global, como o CS50 de Harvard.
+            </p>
+            <p>
+                No ambiente universitário e de pesquisa, busco sempre conectar a teoria à prática. Sou membro ativo da InfoJr, onde aplico meus conhecimentos no desenvolvimento de soluções reais para o mercado, e participo do GruPro, focado em programação competitiva para aprimorar minha capacidade de resolver problemas algorítmicos sob pressão. Além disso, estou envolvido com o LASID, um espaço fundamental que me permite aprofundar estudos e práticas em sistemas, alinhando-se perfeitamente com a minha curiosidade para infraestrutura e self-hosting.
+            </p>
+            <p>
+                Criei este blog para documentar minha jornada. Aqui, você encontrará artigos sobre meus projetos pessoais — desde a criação de IAs e agregadores de dados até a configuração de servidores próprios . É o meu espaço para compartilhar aprendizados, arquiteturas e soluções criativas.
+            </p>
+        </div>
 
-    <aside class="flex flex-col border-2 border-destaque bg-preto-m p-4 rounded-sm relative group">
-      
-      <div class="relative overflow-hidden border border-items mb-4 bg-items/20">
-        <img 
-          src="https://avatars.githubusercontent.com/u/63604008?v=4" 
-          alt="Foto de perfil de Adalberto Neto" 
-          class="w-full h-auto object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+        <aside
+            class="flex flex-col border-2 border-destaque bg-preto-m p-4 rounded-sm relative group"
         >
-        <div class="absolute top-2 right-2 w-2 h-2 border-t border-r border-destaque"></div>
-        <div class="absolute bottom-2 left-2 w-2 h-2 border-b border-l border-destaque"></div>
-      </div>
-      
-      <h1 class="font-mono text-destaque text-xl font-bold uppercase tracking-wider">
-        Adalberto Neto
-      </h1>
-      <span class=" flex justify-center text-xs text-texto font-sans tracking-widest mb-4 block">
-        Nivel: Estágiário | Localização: Salvador, BA | Ciência da computação - UFBA
-      </span>
-      
-      <a href="/curriculo.pdf" target="_blank" rel="noopener noreferrer" class=" flex justify-center w-full bg-destaque/10 border border-destaque text-destaque py-2 text-xs hover:bg-destaque hover:text-preto-m transition-colors">
-        [ Acesso ao meu CV ]
-      </a>
+            <div
+                class="relative overflow-hidden border border-items mb-4 bg-items/20"
+            >
+                <img
+                    src="https://avatars.githubusercontent.com/u/63604008?v=4"
+                    alt="Foto de perfil de Adalberto Neto"
+                    class="w-full h-auto object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                />
+                <div
+                    class="absolute top-2 right-2 w-2 h-2 border-t border-r border-destaque"
+                >
+                </div>
+                <div
+                    class="absolute bottom-2 left-2 w-2 h-2 border-b border-l border-destaque"
+                >
+                </div>
+            </div>
 
-    </aside>
+            <h1
+                class="font-mono text-destaque text-xl font-bold uppercase tracking-wider"
+            >
+                Adalberto Neto
+            </h1>
+            <span
+                class="justify-center text-xs text-texto font-sans tracking-widest mb-4 block"
+            >
+                Nivel: Estágiário | Localização: Salvador, BA | Ciência da
+                computação - UFBA
+            </span>
 
-  </div>
+            <a
+                href="/c13neto/curriculo.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex justify-center w-full bg-destaque/10 border border-destaque text-destaque py-2 text-xs hover:bg-destaque hover:text-preto-m transition-colors mt-4"
+            >
+                [ Acesso ao meu CV ]
+            </a>
+        </aside>
+    </div>
 </Layout>

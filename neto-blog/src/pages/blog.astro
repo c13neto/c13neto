@@ -1,4 +1,87 @@
 ---
 import Layout from "../layouts/layout.astro";
+const arquivos = import.meta.glob("./posts/*.md", { eager: true });
+const allPosts = Object.values(arquivos) as any[];
+
+// Coleta todas as tags únicas
+const todasTags = [...new Set(allPosts.flatMap((post) => post.frontmatter.tags))];
 ---
-<Layout></Layout>
+
+<Layout>
+  <div class="flex flex-col md:flex-row gap-6 px-6 md:px-16 py-8">
+
+    <!-- SIDEBAR -->
+    <aside class="md:w-48 shrink-0">
+      <h2 class="text-sm font-bold uppercase tracking-widest mb-3">>_ Tags:</h2>
+      <ul class="flex flex-row flex-wrap md:flex-col gap-2">
+        <li>
+          <button
+            data-tag="todas"
+            class="tag-btn w-full text-left text-xs px-3 py-1.5 rounded border border-destaque bg-destaque text-preto-m transition-colors"
+          >
+            # todas
+          </button>
+        </li>
+        {todasTags.map((tag: string) => (
+          <li>
+            <button
+              data-tag={tag}
+              class="tag-btn w-full text-left text-xs px-3 py-1.5 rounded border border-items hover:border-destaque hover:text-destaque transition-colors"
+            >
+              # {tag}
+            </button>
+          </li>
+        ))}
+      </ul>
+    </aside>
+
+    <!-- GRID DE POSTS -->
+    <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
+      {allPosts.map((post: any) => (
+        <li
+          class="post-card flex flex-col items-center text-center border-2 rounded-lg p-5 hover:scale-[1.02] transition-transform"
+          data-tags={post.frontmatter.tags.join(",")}
+        >
+          <h2 class="text-xl md:text-2xl font-bold mb-2">
+            <a href={post.url}>{post.frontmatter.title}</a>
+          </h2>
+          <p class="text-sm md:text-base grow mb-3">
+            <em>{post.frontmatter.description}</em>
+          </p>
+          <p class="text-xs md:text-sm">
+            {post.frontmatter.pubDate.toString().slice(0, 10)} · {post.frontmatter.author}
+          </p>
+          <p class="text-xs md:text-sm mt-1">
+            Tags: {post.frontmatter.tags.join(", ")}
+          </p>
+        </li>
+      ))}
+    </ul>
+  </div>
+</Layout>
+
+<script>
+  const botoes = document.querySelectorAll<HTMLButtonElement>(".tag-btn");
+  const cards = document.querySelectorAll<HTMLElement>(".post-card");
+
+  botoes.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const tagSelecionada = btn.dataset.tag;
+
+      // Atualiza estilo dos botões
+      botoes.forEach((b) => {
+        b.classList.remove("bg-destaque", "text-preto-m", "border-destaque");
+        b.classList.add("border-items");
+      });
+      btn.classList.add("bg-destaque", "text-preto-m", "border-destaque");
+      btn.classList.remove("border-items");
+
+      // Filtra os cards
+      cards.forEach((card) => {
+        const tags = card.dataset.tags?.split(",") ?? [];
+        const visivel = tagSelecionada === "todas" || tags.includes(tagSelecionada!);
+        card.style.display = visivel ? "" : "none";
+      });
+    });
+  });
+</script>

@@ -1,0 +1,11 @@
+---
+import Layout from "./layout.astro";
+const { frontmatter: formato } = Astro.props;
+---
+<Layout>
+  <h1>{formato.title}</h1>
+  <p><em>{formato.description}</em></p>
+  <p>Publicado em {formato.pubDate.toString().slice(0,10)} - Escrito por: {formato.author}</p>
+  <slot />
+  <p>Tags: {formato.tags.join(", ")}</p>
+</Layout>

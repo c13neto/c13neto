@@ -40,9 +40,6 @@
         cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="%2300FF41" stroke="%230D0208" stroke-width="1"><polygon points="3 3 10 21 13 14 20 11 3 3"/></svg>'), pointer;
         @apply text-texto hover:text-destaque transition-colors duration-300 border-b-2 border-transparent hover:border-destaque
     }
-    h1 {
-        @apply flex justify-center-safe text-4xl font-bold
-    }
     p {
         @apply flex justify-center-safe
     }
