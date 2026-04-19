@@ -21,7 +21,7 @@ Construo desde bancos de dados relacionais até interfaces de gestão completas.
 
 **Linguagens e Supersets**
 
-![Python](https://img.shields.io/badge/Python-101010?style=flat-square&logo=python&logoColor=ffdd54)
+![Python](https://img.shields.io/badge/Python-101010?style=flat-square&logo=python&logoColor=3776AB)
 ![C](https://img.shields.io/badge/C-101010?style=flat-square&logo=c&logoColor=00599C)
 ![JavaScript](https://img.shields.io/badge/JavaScript-101010?style=flat-square&logo=javascript&logoColor=F7DF1E)
 ![Typescript](https://img.shields.io/badge/TypeScript-101010?style=flat-square&logo=typescript&logoColor=3178C6)
@@ -30,18 +30,16 @@ Construo desde bancos de dados relacionais até interfaces de gestão completas.
 
 ![HTML5](https://img.shields.io/badge/HTML5-101010?style=flat-square&logo=html5&logoColor=E34F26)
 ![CSS3](https://img.shields.io/badge/CSS3-101010?style=flat-square&logo=css&logoColor=1572B6)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-101010?style=flat-square&logo=tailwindcss&logoColor=38B2AC)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-101010?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
 ![Vite](https://img.shields.io/badge/Vite-101010?style=flat-square&logo=vite&logoColor=646CFF)
-![Astro](https://img.shields.io/badge/Astro-101010?style=flat-square&logo=astro&logoColor=646CFF)
-
-**Backend**
+![Astro](https://img.shields.io/badge/Astro-101010?style=flat-square&logo=astro&logoColor=FF5D01)
 
 **Backend**
 
 ![Supabase](https://img.shields.io/badge/Supabase-101010?style=flat-square&logo=supabase&logoColor=3ECF8E)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-101010?style=flat-square&logo=postgresql&logoColor=3ECF8E)
-![Express](https://img.shields.io/badge/Express-101010?style=flat-square&logo=express&logoColor=3ECF8E)
-![Prisma Orm](https://img.shields.io/badge/Prisma-101010?style=flat-square&logo=prisma&logoColor=3ECF8E)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-101010?style=flat-square&logo=postgresql&logoColor=4169E1)
+![Express](https://img.shields.io/badge/Express-101010?style=flat-square&logo=express&logoColor=FFFFFF)
+![Prisma Orm](https://img.shields.io/badge/Prisma-101010?style=flat-square&logo=prisma&logoColor=2D3748)
 
 
 ---
@@ -50,7 +48,7 @@ Construo desde bancos de dados relacionais até interfaces de gestão completas.
 
 [![Readme Card](https://github-readme-stats-alpha-seven-81.vercel.app//api/pin/?username=c13neto&repo=IAGRICULTOR&theme=radical)](https://github.com/c13neto/IAGRICULTOR)
 [![Readme Card](https://github-readme-stats-alpha-seven-81.vercel.app//api/pin/?username=c13neto&repo=c13neto&theme=radical)](https://github.com/c13neto/c13neto)
-[![Readme Card](https://github-readme-stats-alpha-seven-81.vercel.app//api/pin/?username=c13neto&repo=c13neto&theme=radical)](https://github.com/c13neto/qualisenior)
+[![Readme Card](https://github-readme-stats-alpha-seven-81.vercel.app//api/pin/?username=c13neto&repo=qualisenior&theme=radical)](https://github.com/c13neto/qualisenior)
 
 ---
 
