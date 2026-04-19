@@ -24,7 +24,7 @@ Construo desde bancos de dados relacionais até interfaces de gestão completas.
 ![Python](https://img.shields.io/badge/Python-101010?style=flat-square&logo=python&logoColor=ffdd54)
 ![C](https://img.shields.io/badge/C-101010?style=flat-square&logo=c&logoColor=00599C)
 ![JavaScript](https://img.shields.io/badge/JavaScript-101010?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![Typescript](https://img.shields.io/badge/TypeScript-101010?style=flat-square&logo=typescript&logoColor=F7DF1E)
+![Typescript](https://img.shields.io/badge/TypeScript-101010?style=flat-square&logo=typescript&logoColor=3178C6)
 
 **Frontend & Web**
 
@@ -36,9 +36,11 @@ Construo desde bancos de dados relacionais até interfaces de gestão completas.
 
 **Backend**
 
+**Backend**
+
 ![Supabase](https://img.shields.io/badge/Supabase-101010?style=flat-square&logo=supabase&logoColor=3ECF8E)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-101010?style=flat-square&logo=postgresql&logoColor=3ECF8E)
-![Express](https://img.shields.io/badge/Express-101010?style=flat-square&logo=expressjs&logoColor=3ECF8E)
+![Express](https://img.shields.io/badge/Express-101010?style=flat-square&logo=express&logoColor=3ECF8E)
 ![Prisma Orm](https://img.shields.io/badge/Prisma-101010?style=flat-square&logo=prisma&logoColor=3ECF8E)
 
 
